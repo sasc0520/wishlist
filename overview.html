@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>Saschas Ønsker</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="fixed_container">
+      <div class="message">
+        <p class="sum">I alt: 20.854,5 kr.</p>
+      </div>
+    </div>
+    <header id="showcase">
+      <div id="showcase_container">
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <div id="burger_list" class="hidden nav_links">
+          <button class="filter" data-wish="kjoler">Kjoler</button>
+          <button class="filter" data-wish="toppe">Toppe</button>
+          <button class="filter" data-wish="underdele">Underdele</button>
+          <button class="filter" data-wish="sko">Sko</button>
+          <button class="filter" data-wish="access">Accessories</button>
+          <button class="filter" data-wish="workout_toej">Træningstøj</button>
+          <button class="filter" data-wish="beauty">Beauty</button>
+          <button class="filter" data-wish="andet">Andet</button>
+          <!-- <button class="filter" data-wish="wanted"><span>Mest Ønsket</span></button> -->
+          <button class="filter" data-wish="gonnabuy"><span>Gonna Buy</span></button>
+        </div>
+      </div>
+    </header>
+
+    <nav id="desktop_nav">
+      <button class="filter" data-wish="kjoler">Kjoler</button>
+      <button class="filter" data-wish="toppe">Toppe</button>
+      <button class="filter" data-wish="underdele">Underdele</button>
+      <button class="filter" data-wish="sko">Sko</button>
+      <button class="filter" data-wish="access">Accessories</button>
+      <button class="filter" data-wish="workout_toej">Træningstøj</button>
+      <button class="filter" data-wish="beauty">Beauty</button>
+      <button class="filter" data-wish="andet">Andet</button>
+      <!-- <button class="filter" data-wish="wanted"><span>Mest Ønsket</span></button> -->
+      <button class="filter" data-wish="gonnabuy"><span>Gonna Buy</span></button>
+    </nav>
+
+    <div id="kategori_overskrift">
+      <div class="kategori_indhold">
+        <h1>Kjoler</h1>
+      </div>
+      <p class="extratext"></p>
+    </div>
+    <section id="data_container"></section>
+
+    <template>
+      <article class="oversigt">
+        <img src="" alt="" />
+        <p class="navn"></p>
+        <p class="lang"></p>
+        <h3 class="pris"></h3>
+        <div class="button">
+          <a class="link-button" href="">Find den her</a>
+        </div>
+      </article>
+    </template>
+
+    <script src="script.js"></script>
+  </body>
+</html>
